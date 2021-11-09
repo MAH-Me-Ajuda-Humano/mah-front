@@ -1,0 +1,91 @@
+/* Ellipse 5 */
+
+.layout{
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 1171.47px;
+    top: 713.54px;
+    
+    background: #49AB94;
+    transform: rotate(-90deg);
+    }
+    
+    /* Ellipse 6 */
+    
+    .layout{
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 626.18px;
+    top: 528.29px;
+    
+    background: #49AB94;
+    transform: rotate(-90deg);
+    }
+    
+    /* Ellipse 7 */
+    
+    .layout{
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 626.18px;
+    top: 895.78px;
+    
+    background: #49AB94;
+    transform: rotate(-90deg);
+    }
+    
+    /* Ellipse 8 */
+    
+    .layout{
+    
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 989.71px;
+    top: -17px;
+    
+    background: #89F235;
+    transform: rotate(90deg);
+    
+    }
+    
+    /* Ellipse 9 */
+    
+    .layout{
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 1535px;
+    top: 348.27px;
+    
+    background: #89F235;
+    transform: rotate(-180deg);
+    }
+    
+    /* Ellipse 10 */
+    
+    .layout{
+    position: absolute;
+    width: 363.53px;
+    height: 363.53px;
+    left: 1535px;
+    top: 713.54px;
+    
+    background: #89F235;
+    transform: rotate(-180deg);
+    }
+    
+    /* Ellipse 19 */
+    
+    .layout{
+    position: absolute;
+    width: 344px;
+    height: 339px;
+    left: 35px;
+    top: 51px;
+    
+    background: #89F235;
+    }
