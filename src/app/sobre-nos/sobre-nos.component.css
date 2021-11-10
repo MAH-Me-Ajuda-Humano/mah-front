@@ -1,0 +1,12 @@
+/* Ellipse 6 */
+
+.layout{
+position: absolute;
+width: 493px;
+height: 486px;
+left: 1155px;
+top: 1001px;
+
+background: #49AB94;
+transform: rotate(-90deg);
+}
