@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
 import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
+import { TemaComponent } from './tema/tema.component';
  
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { SobreNosComponent } from './sobre-nos/sobre-nos.component';
     EntrarComponent,
     CadastrarComponent,
     InicioComponent,
-    SobreNosComponent
+    SobreNosComponent,
+    TemaComponent
+    
   ],
   imports: [
     BrowserModule,
