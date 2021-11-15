@@ -4,7 +4,7 @@
     height: 41px; 
     left: 1239px; 
     top: 15px;  
-    background: #49AB94; 
+    background: #000000; 
     border-radius: 30px;
 }
 span{
@@ -15,7 +15,7 @@ span{
 }
 #btnlogin{
     width: 150px;
-    background: #49AB94;
+    background: #000000;
     border-radius: 30px;  
     border: none;  
     

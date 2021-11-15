@@ -23,10 +23,7 @@ const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'tema', component: TemaComponent },
   {path: 'tema-edit/:id', component: TemaEditComponent},
-  {path: 'tema-delete/:id', component: TemaDeleteComponent},
-  {path: '/postagem-edit/:id', component: PostagemEditComponent},
-  {path: '/postagem-delete/:id', component: PostagemDeleteComponent}
-
+  {path: 'tema-delete/:id', component: TemaDeleteComponent}
 
 ];
 
