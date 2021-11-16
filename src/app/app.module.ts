@@ -18,6 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { PostagemEditComponent } from './edit/postagem-edit/postagem-edit.component';
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
+import { UserEditComponent } from './edit/user-edit/user-edit.component';
+import { AlertasComponent } from './alertas/alertas.component';
  
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delet
     TemaEditComponent,
     TemaDeleteComponent,
     PostagemEditComponent,
-    PostagemDeleteComponent
+    PostagemDeleteComponent,
+    UserEditComponent,
+    AlertasComponent
     
   ],
   imports: [
