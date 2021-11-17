@@ -22,12 +22,6 @@
             </div>
 
             <div class="form-group">
-                <label for="dataNascimento">Data de nascimento</label>
-                <input [(ngModel)]='user.dataNascimento' class="form-control" type="date" name="dataNascimento"
-                    id="dataNascimento" placeholder="DD/MM/YYYY">
-            </div>
-
-            <div class="form-group">
                 <label for="foto">Link da foto</label>
                 <input [(ngModel)]='user.foto' class="form-control" type="text" name="foto" id="foto"
                     placeholder="Link da sua foto">
@@ -45,14 +39,7 @@
                     id="confirmSenha" placeholder="Confirme sua senha">
             </div>
 
-            <div class="form-group">
-                <label for="tipo">Tipo de usuário</label>
-                <select class="form-control" name="tipo" id="tipo" (change)='tipoUser($event)'>
-                    <option>Selecione um tipo de usuário:</option>
-                    <option value="normal">Normal</option>
-                    <option value="adm">Administrador</option>
-                </select>
-            </div>
+           
 
             <div class="d-flex justify-content-center">
                 <button type="submit" class="btn btn-danger mr-4" routerLink='/inicio'>Cancelar</button>
