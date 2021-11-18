@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-success">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon "></span>
@@ -11,7 +11,7 @@
                     class="img-fluid rounded-circle" />
             </li>
             <li class="nav-item pl-3">
-                <p class="m-0 font-weight-bold fs-16">{{nome}} |</p>
+                <p class="m-0 font-weight-bold fs-16 text-white">{{nome}} |</p>
             </li>
             <li class="nav-item pl-3">
                 <a [routerLink]="['/user-edit', id]">
@@ -23,13 +23,12 @@
 
 
             </li>
-            <li class="nav-item pl-3"><a href="" routerLink='/inicio'>
-                    <p href="" class="m-0 font-weight-bold fs-16 text-dark">Inicio</p>
-                </a>
+            <li class="nav-item pl-3">
+                <button type="button" routerLink='/inicio' class="btn btn-outline-success">Inicio</button>
             </li>
             
             <li class="nav-item pl-3">
-                <a class="m-0 font-weight-bold fs-16 text-dark" routerLink='/sobre-nos'>Sobre nós</a>
+            <button type="button" routerLink='/sobre-nos' class="btn btn-outline-success">Sobre nós</button>
             </li>
 
 
@@ -38,7 +37,7 @@
 
         <ul class="navbar-nav ml-auto d-flex justify align-items-center">
             <li class="nav-item pl-3">
-                <a (click)='sair()' class="m-0 font-weight-bold fs-16 text-dark">Sair <i class="fa fa-sign-out"
+                <a (click)='sair()' class="btn btn-outline-success">Sair <i class="fa fa-sign-out"
                         aria-hidden="true"></i></a>
             </li>
         </ul>

@@ -1,0 +1,7 @@
+.divBorda{
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(15, 143, 36);
+    border-width: 2px;
+    border-style: inset;
+    
+}
