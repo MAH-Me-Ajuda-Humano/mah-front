@@ -23,6 +23,7 @@ import { AlertasComponent } from './alertas/alertas.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { HomeComponent } from './home/home.component';
 import { Menu2Component } from './menu2/menu2.component';
+import { OrderModule } from 'ngx-order-pipe';
  
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { Menu2Component } from './menu2/menu2.component';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    OrderModule
 
     ],
   providers: [{
