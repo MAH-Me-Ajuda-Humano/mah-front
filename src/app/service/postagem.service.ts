@@ -20,7 +20,7 @@ export class PostagemService {
   }
 
   getByidPostagem(id: number): Observable<Postagem>{
-    return this.http.get<Postagem>(`http://localhost:8080/${id}`, this.token)
+    return this.http.get<Postagem>(`http://localhost:8080/postagens/${id}`, this.token)
   }
 
   postPostagem(postagem: Postagem) : Observable<Postagem>{
