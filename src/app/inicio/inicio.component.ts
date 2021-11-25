@@ -20,6 +20,8 @@ export class InicioComponent implements OnInit {
   listaPostagens: Postagem[]
   tituloPost: string
   nomeTema: string
+  foto = environment.foto
+
 
 
   tema: Tema = new Tema()
@@ -78,9 +80,9 @@ export class InicioComponent implements OnInit {
   publicar() {
     this.tema.id = this.idTema
     this.postagem.tema = this.tema
-
     this.user.id = this.idUser
     this.postagem.usuario = this.user
+    this.postagem.foto = this.foto
     this.postagemService.postPostagem(this.postagem).subscribe((resp: Postagem) =>{
       this.postagem = resp
       this.alertas.showAlertSuccess('Postagem realizada com sucesso!')

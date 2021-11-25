@@ -35,6 +35,7 @@
 <div class="container mb-5 mt-5" id="postagens">
 
   <nav>
+
     <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
 
       <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab"
@@ -70,9 +71,17 @@
       <div class="card-columns">
         <div class="card text-center" *ngFor='let item of listaPostagens | orderBy : key : reverse'>
           <div class="card-body">
+
+            
+            
+                <img
+                  src="{{item.usuario.foto}}"
+                  alt="" width="100px" height="100px" class="rounded-circle">
+
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <small class="text-muted">Tema: {{item.tema.descricao}} </small>
             <p class="card-text mt-3">{{item.texto}}</p>
+            <a href="{{item.link}}" class="card-link">{{item.link}}</a>
             <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data
                 | date: "HH:mm"}}</small></p>
 
@@ -91,6 +100,8 @@
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <small class="text-muted">Tema: {{item.tema.descricao}} </small>
             <p class="card-text mt-3">{{item.texto}}</p>
+            <p class="card-text mt-3">{{item.texto}}</p>
+            <a href="{{item.link}}" class="card-link">{{item.link}}</a>
             <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data
                 | date: "HH:mm"}}</small></p>
 
@@ -119,6 +130,7 @@
           <div class="card-body">
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <p class="card-text mt-3">{{item.texto}}</p>
+            <a href="{{item.link}}" class="card-link">{{item.link}}</a>
             <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data
                 | date: "HH:mm"}}</small></p>
             <p class="card-text"><small class="text-muted">by {{item.usuario.nome}}</small></p>
@@ -148,6 +160,10 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+
+
+     
+
       <div class="modal-body">
         <div class="form-group">
           <label for="titulo">Título</label>
@@ -155,9 +171,16 @@
             placeholder="Digite o título">
         </div>
 
+
         <div class="form-group">
           <label for="texto">Texto</label>
           <textarea [(ngModel)]='postagem.texto' class="form-control" name="texto" id="texto" rows="3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="titulo">Link</label>
+          <input [(ngModel)]='postagem.link' type="text" class="form-control" id="titulo"
+            placeholder="Coloque o link">
         </div>
 
         <div class="form-group">
