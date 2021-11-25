@@ -9,8 +9,6 @@
           <h1 style="font-size: 54px;">MAH</h1>
           <h2>Me ajuda humano</h2>
           <h4>Orientar para incluir e incluir para crescer.</h4>
-
-
         </div>
 
       </div>
@@ -81,7 +79,7 @@
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <small class="text-muted">Tema: {{item.tema.descricao}} </small>
             <p class="card-text mt-3">{{item.texto}}</p>
-            <a href="{{item.link}}" class="card-link">{{item.link}}</a>
+            <a href="{{item.link}}" target="_blank" class="card-link">{{item.link}}</a>
             <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data
                 | date: "HH:mm"}}</small></p>
 
@@ -97,11 +95,14 @@
       <div class="card-columns">
         <div class="card text-center" *ngFor='let item of user.postagem | orderBy : key : reverse'>
           <div class="card-body">
+            
+
+           
+
             <h5 class="card-title m-0">{{item.titulo}}</h5>
             <small class="text-muted">Tema: {{item.tema.descricao}} </small>
             <p class="card-text mt-3">{{item.texto}}</p>
-            <p class="card-text mt-3">{{item.texto}}</p>
-            <a href="{{item.link}}" class="card-link">{{item.link}}</a>
+            <a href="{{item.link}}" target="_blank" class="card-link">{{item.link}}</a>
             <p class="card-text"><small class="text-muted">{{item.data | date: "dd/MM/yyyy"}} às {{item.data
                 | date: "HH:mm"}}</small></p>
 
