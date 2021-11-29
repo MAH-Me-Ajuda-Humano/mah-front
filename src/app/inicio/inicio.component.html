@@ -1,11 +1,35 @@
+
 <!-- Hero section -->
+<nav >
+  <div class="menu">
+    <div class="title">Biblioteca</div>
+  <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+
+    <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab"
+      href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as
+      postagens</a>
+
+    <a (click)='findByIdUsuario()' class="nav-item nav-link text-secondary font-weight-bold"
+      id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab"
+      aria-controls="nav-minhasPostagens" aria-selected="false">Minhas
+      postagens</a>
+
+    <a (click)='getAllTemas();' class="nav-item nav-link text-secondary font-weight-bold" id="nav-postagemTema-tab"
+      data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema"
+      aria-selected="false">Postagens por
+      tema</a>
+
+  </div>
+</div>
+</nav>
+
 <div class="container-fluid">
-  <div class="row d-flex align-items-center" style="background-color: rgb(204, 250, 240);">
+  <div class="row d-flex align-items-center" style="background-color: #12a050;">
 
     <div class="col-md-6">
 
       <div class="row d-flex justify-content-center ">
-        <div class="col-md-6 text-dark">
+        <div class="col-md-6 text-white">
           <h1 style="font-size: 54px;">MAH</h1>
           <h2>Me ajuda humano</h2>
           <h4>Orientar para incluir e incluir para crescer.</h4>
@@ -15,49 +39,30 @@
 
       <div class="row d-flex justify-content-center mt-3 mb-5">
         <div class="col-md-6">
-          <button class="btn btn-primary mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>
-          <button class="btn btn-primary mr-2" routerLink='/tema'>Temas</button>
-          <a class="btn btn-primary mt-3" href="#postagens">Ver Postagens</a>
+          <button class="btn btn-outline-light mr-2" data-toggle="modal" data-target="#novaPostagem">Nova Postagem</button>
+          <button class="btn btn-outline-light mr-2" routerLink='/tema'>Temas</button>
+          <a class="btn btn-outline-light mr-" href="#postagens">Ver Postagens</a>
         </div>
 
       </div>
 
     </div>
     <div class="col-md-6 d-flex justify-content-center mt-3 mb-5">
-      <img src="https://i.imgur.com/LmAUlYG.png" alt="Fundo" width="500px" height="500px">
+      <img src="https://i.imgur.com/pNg4fiJ.png" alt="Fundo" width="500px" height="500px">
     </div>
   </div>
 </div>
 
+<div class="row d-flex align-items-center"  style="background: #8c9791;">
+<div class="container mb-5 mt-5" id="postagens" >
 
-<div class="container mb-5 mt-5" id="postagens">
+  
 
-  <nav>
-
-    <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
-
-      <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab"
-        href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as
-        postagens</a>
-
-      <a (click)='findByIdUsuario()' class="nav-item nav-link text-secondary font-weight-bold"
-        id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab"
-        aria-controls="nav-minhasPostagens" aria-selected="false">Minhas
-        postagens</a>
-
-      <a (click)='getAllTemas();' class="nav-item nav-link text-secondary font-weight-bold" id="nav-postagemTema-tab"
-        data-toggle="tab" href="#postagemTema" role="tab" aria-controls="nav-postagemTema"
-        aria-selected="false">Postagens por
-        tema</a>
-
-    </div>
-  </nav>
-
-  <div class="tab-content mt-5" id="nav-tabContent">
+  <div class="tab-content mt-5 " id="nav-tabContent">
 
     <div class="tab-pane fade show active" id="todasPostagens" role="tabpanel" aria-labelledby="nav-todasPostagens-tab">
 
-      <div class="row d-flex justify-content-center mt-5 mb-5">
+      <div class="row d-flex justify-content-center mt-5 mb-5" >
         <div class="col-md-4">
           <div class="form-group">
             <input type="text" class="form-control" id="titulo"
@@ -66,9 +71,10 @@
           </div>
         </div>
       </div>
-      <div class="card-columns">
+      <div class="card-columns " >
         <div class="card text-center" *ngFor='let item of listaPostagens | orderBy : key : reverse'>
-          <div class="card-body">
+          <div class="card-body" style="background: #ffffff;
+          ;">
 
             
             
@@ -94,7 +100,7 @@
 
       <div class="card-columns">
         <div class="card text-center" *ngFor='let item of user.postagem | orderBy : key : reverse'>
-          <div class="card-body">
+          <div class="card-body" >
             
 
            
@@ -144,6 +150,8 @@
   </div>
 
 </div>
+</div>
+
 
 
 
@@ -200,4 +208,5 @@
     </div>
   </div>
 </div>
+
 <app-rodape></app-rodape>
