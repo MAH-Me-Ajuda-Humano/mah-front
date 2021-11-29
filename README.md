@@ -9,13 +9,13 @@
         </p>
     
 ## :memo: Descrição
-Neste repostitório você ira se deparar com a maior parte dos processos de criação do Front-End do E-commerce **RenTo**. 
+Neste repostitório você ira se deparar com a maior parte dos processos de criação do Front-End da rede  social **MAH**. 
   
 <br>
   
 ## :round_pushpin: Antes que você navegue entre as nossas pastas 
 <br>
-Somos estudande em desenvolvimento e todo conhecimento e dicas são mais que bem vindes, são extremamente necessários. Então, fique a vontade para apontar qualquer coisa dentro dos amados códigos! 🥰
+Somos estudandes em desenvolvimento e todo conhecimento e dicas são mais que bem vindes, são extremamente necessários. Então, fique a vontade para apontar qualquer coisa dentro dos amados códigos! 🥰
 
 <br>
 <hr size="3">
@@ -67,15 +67,6 @@ A Netlify é especializada em soluções avançadas de hospedagem e automação 
 
 <hr size="2">
 
-<h2 align="left">:soon: Últimas Implementações</h2>
-     
-<table>
-  <tr>
-    <td align="left"> 
-       <b>9° TASK</b></a> = Objetivo: Criar o projeto em Angular<br>
-       <b>10° TASK</b></a> = Objetivo: Segurança no Angular<br>
-        <b>11° TASK</b></a> = Objetivo: Implementar o consumo de HTTP - GET e POST
-    </h5>
 <br>
   </sub>
       </a>
