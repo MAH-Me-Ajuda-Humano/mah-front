@@ -1,4 +1,4 @@
-<h1 align="CENTER">BACK-END</h1>
+<h1 align="CENTER">FRONT-END</h1>
    <br>
 
    <p align="center">
@@ -9,7 +9,7 @@
         </p>
     
 ## :memo: Descrição
-Neste repostitório você ira se deparar com a maior parte dos processos de criação do Back-End do E-commerce **RenTo**. 
+Neste repostitório você ira se deparar com a maior parte dos processos de criação do Front-End do E-commerce **RenTo**. 
   
 <br>
   
@@ -25,8 +25,8 @@ Somos estudande em desenvolvimento e todo conhecimento e dicas são mais que bem
 <table>
   <tr>
     <td align="center"> 
-      <img align="left" alt="IDE Java" height="40" width="40" src="https://user-images.githubusercontent.com/11943860/46922575-7017cf80-cfe1-11e8-845a-0cd198fb546c.png"/>
-O Eclipse é uma ferramenta IDE que compreende vários tipos de linguagem e que aceita a instalação de plugins para emular o desenvolvimento da plataforma. Para saber mais, <a href="https://www.devmedia.com.br/conhecendo-o-eclipse-uma-apresentacao-detalhada-da-ide/25589/"><b>clique aqui.</b>
+      <img align="left" alt="Visual Studio" height="40" width="40" src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"/>
+O Visual Studio Code (VS Code) é um editor de código de código aberto desenvolvido pela Microsoft. Para saber mais, <a href="https://www.treinaweb.com.br/blog/vs-code-o-que-e-e-por-que-voce-deve-usar"><b>clique aqui.</b>
   </sub>
       </a>
     </td>
@@ -37,8 +37,8 @@ O Eclipse é uma ferramenta IDE que compreende vários tipos de linguagem e que 
 <table>
   <tr>
     <td align="center"> 
-<img align="left" alt="Mysql" height="40" width="40" src="https://img.icons8.com/fluency/48/000000/mysql-logo.png"/>
-O MySQL é um sistema gerenciador de banco de dados relacional de código aberto usado na maioria das aplicações gratuitas para gerir suas bases de dados. Para saber mais, <a href="https://rockcontent.com/br/blog/mysql/"><b>clique aqui.</b>
+<img align="left" alt="BootStrap" height="40" width="40" src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+Bootstrap é um framework front-end que fornece estruturas de CSS para a criação de sites e aplicações responsivas de forma rápida e simples. Para saber mais, <a href="https://www.alura.com.br/artigos/bootstrap"><b>clique aqui.</b>
        </sub>
       </a>
     </td>
@@ -47,18 +47,17 @@ O MySQL é um sistema gerenciador de banco de dados relacional de código aberto
 <br>
 <table>
   <tr>
-    <td align="center"> <img align="left" alt="Spring" height="40" width="40" src="https://img.icons8.com/color/48/000000/spring-logo.png"/>
-O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Assim, os devs conseguem diminuir o tempo gasto com configurações iniciais. Para saber mais, <a href="https://www.devmedia.com.br/spring-boot-simplificando-o-spring/31979"><b>clique aqui.</b>
+    <td align="center"> <img align="left" alt="Angular" height="40" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/250px-Angular_full_color_logo.svg.png"/>
+Angular é uma plataforma e framework para construção da interface de aplicações usando HTML, CSS e, principalmente, JavaScript, criada pelos desenvolvedores da Google. Para saber mais, <a href="https://blog.algaworks.com/o-que-e-angular/"><b>clique aqui.</b>
  </sub>
       </a>
     </td>
   </tr>
 </table>
-<br>
 <table>
   <tr>
-    <td align="center"> <img align="left" alt="Heroku" height="40" width="40" src="https://img.icons8.com/color/48/000000/heroku.png"/>
-Heroku é uma plataforma nuvem que faz deploy de várias aplicações back-end seja para hospedagem, testes em produção ou escalar aplicações. Para saber mais, <a href="https://blog.geekhunter.com.br/heroku/"><b>clique aqui.</b>
+    <td align="center"> <img align="left" alt="Netlifly" height="40" width="40" src="https://cdn.iconscout.com/icon/free/png-256/netlify-3629537-3032320.png"/>
+A Netlify é especializada em soluções avançadas de hospedagem e automação na web para empresas. Para saber mais, <a href="https://blog.back4app.com/pt/netlify-vs-heroku-quais-sao-as-diferencas/#O_que_e_o_Netlify"><b>clique aqui.</b>
  </sub>
       </a>
     </td>
@@ -73,14 +72,9 @@ Heroku é uma plataforma nuvem que faz deploy de várias aplicações back-end s
 <table>
   <tr>
     <td align="left"> 
-       <b>1° TASK</b></a> = Objetivo: Definir o escopo do projeto<br>
-       <b>2° TASK</b></a> = Objetivo: Prototipar o Banco de dados<br>
-      <a align="left" href="https://docs.google.com/document/d/1ftRYYV84tIUJFpVlPTz3IpgBj25ExoZfN5N65hZOJmY/edit"><b>3° TASK</b></a> = Objetivo: Criar o projeto spring no spring Initializr<br>
-     <a align="left" href="https://docs.google.com/document/d/1ftRYYV84tIUJFpVlPTz3IpgBj25ExoZfN5N65hZOJmY/edit"><b>4° TASK</b></a> = Objetivo: Criar a primeira model do meu projeto spring e conectar ao banco de dados mysql <br>
-        <b>5° TASK</b></a> = Objetivo: Criando o CRUD do meu projeto Spring<br>
-        <b>6° TASK</b></a> = Objetivo: Criando o CRUD com relacionamento para o meu projeto Spring<br>
-        <b>7° TASK</b></a> = Objetivo: Criando o CRUD com camada de segurança implementada<br>
-        <b>8° TASK</b></a> = Objetivo: Construir doc Swagger e fazer o Deploy
+       <b>9° TASK</b></a> = Objetivo: Criar o projeto em Angular<br>
+       <b>10° TASK</b></a> = Objetivo: Segurança no Angular<br>
+        <b>11° TASK</b></a> = Objetivo: Implementar o consumo de HTTP - GET e POST
     </h5>
 <br>
   </sub>
